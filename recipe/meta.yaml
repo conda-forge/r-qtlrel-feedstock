@@ -27,6 +27,7 @@ requirements:
     - posix                # [win]
     - {{native}}toolchain  # [win]
     - {{ compiler('c') }}  # [not win]
+    - {{ compiler('fortran') }}  # [not win]
   host:
     - r-base
     - r-gdata
