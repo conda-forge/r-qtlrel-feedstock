@@ -17,7 +17,7 @@ source:
 
 build:
   merge_build_host: True   # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -25,7 +25,9 @@ build:
 requirements:
   build:
     - posix                # [win]
-    - {{native}}toolchain  # [win]
+    - {{ compiler('m2w64_c') }}  # [win]
+    - {{ compiler('m2w64_cxx') }}  # [win]
+    - {{ compiler('m2w64_fortran') }}  # [win]
     - {{ compiler('c') }}  # [not win]
     - {{ compiler('cxx') }}  # [not win]
     - {{ compiler('fortran') }}  # [not win]
@@ -58,6 +60,7 @@ about:
   license_family: GPL3
 extra:
    recipe-maintainers:
+    - conda-forge/r
     - dpryan79
     - MathiasHaudgaard
     - FrodePedersen
