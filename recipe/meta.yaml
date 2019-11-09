@@ -32,12 +32,12 @@ requirements:
     - {{ compiler('cxx') }}  # [not win]
     - {{ compiler('fortran') }}  # [not win]
   host:
-    - r-base
+    - r-base >=3.6
     - r-gdata
     - r-lattice
 
   run:
-    - r-base
+    - r-base >=3.6
     - r-gdata
     - r-lattice
 
