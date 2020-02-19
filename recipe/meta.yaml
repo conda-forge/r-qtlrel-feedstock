@@ -1,4 +1,4 @@
-{% set version = "1.5" %}
+{% set version = "1.6" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,7 +13,7 @@ source:
     - https://cran.r-project.org/src/contrib/QTLRel_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/QTLRel/QTLRel_{{ version }}.tar.gz
 
-  sha256: e43431cb05da82d7559d39ebb70d0641b06d54cd34a06b8864381081ffd3ec26
+  sha256: e5f0a855a89329d3c50b14917ab9f94dd1ed388ac547fa25a955e94373c62885
 
 build:
   merge_build_host: True   # [win]
