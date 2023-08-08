@@ -3,6 +3,7 @@ About r-qtlrel-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-qtlrel-feedstock/blob/main/LICENSE.txt)
 
+
 About r-qtlrel
 --------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=QTLRel
 Package license: GPL-2.0-or-later
 
 Summary: This software provides tools for quantitative trait mapping in populations such as advanced intercross lines where relatedness among individuals should not be ignored. It can estimate background genetic variance components, impute missing genotypes, simulate genotypes, perform a genome scan for putative quantitative trait loci (QTL), and plot mapping results. It also has functions to calculate identity coefficients from pedigrees, especially suitable for pedigrees that consist of a large number of generations, or estimate identity coefficients from genotypic data in certain circumstances.
+
 About r-qtlrel
 --------------
 
