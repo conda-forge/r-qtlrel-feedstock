@@ -1,4 +1,4 @@
-{% set version = "1.14" %}
+{% set version = "1.15" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/QTLRel_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/QTLRel/QTLRel_{{ version }}.tar.gz
-  sha256: 6920db4f25b1eb97f9fc9b858216e4dd6c61736489d9056871a02b46f1a63daf
+  sha256: 15403d0b0850de06888afb39e5487c713ee042c04287b8466452e08f51610094
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
